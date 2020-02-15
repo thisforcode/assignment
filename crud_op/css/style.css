@@ -1,0 +1,34 @@
+.wrapper{
+    width:100%;
+}
+.w-left {
+    float: left;
+    width:40%;
+}
+.w-right{
+    float: left;
+    width:40%;
+}
+form{
+    table-layout: fixed;
+    width:100%;
+}
+label{
+    width:30%;
+    margin:10px;
+    float: left;
+}
+input{
+    width:40%;
+    margin:10px;
+}
+.clear{
+    clear:both;
+}
+table{
+    width:100%;
+    text-align: center;
+}
+tr,th{
+    table-layout: fixed;
+}

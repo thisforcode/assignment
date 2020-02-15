@@ -1,0 +1,53 @@
+<html>
+
+<head>
+    <title>CRUD Operation</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="wrapper">
+           <div class="w-left">
+            <form class="frmD" onSubmit="event.preventDefault();onFormSubmit()" autocomplete="off">
+                <div>
+                    <label>Full Name</label>
+                    <input type="text" name="fullName" id="fullName" />
+                </div>
+                <div>
+                    <label>Employee Code</label>
+                    <input type="text" name="empCode" id="empCode" />
+                </div>
+                <div>
+                    <label>Salary</label>
+                    <input type="text" name="salary" id="salary" />
+                </div>
+                <div>
+                    <input id="submit" type="submit" value="Submit" />
+                </div>
+            </form>
+           </div>
+           <div class="w-right">
+            <table class="list" id="employeeList">
+                <thead>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>Employee Code</th>
+                        <th>Salary</th>
+                    </tr>
+                    <tr>
+                        <td><input oninput="searchFname('fullName')" type="text" name="sfullName" id="sfullName"/></td>
+                        <td><input oninput="searchFname('empCode')" type="text" name="sempCode" id="sempCode" /></td>
+                        <td><input oninput="searchFname('salary')" type="text" name="ssalary" id="ssalary" /></td>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+           </div>
+    </div>
+</body>
+<script src="js/crud.js"></script>
+
+</html>
