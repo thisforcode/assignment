@@ -1,0 +1,8 @@
+{
+  "name": "fzgps",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
